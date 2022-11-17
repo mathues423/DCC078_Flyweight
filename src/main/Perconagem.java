@@ -20,7 +20,6 @@ public class Perconagem {
         for (Item saida : this.bolsa){
             itens += "{nome: " + saida.getNome() + "("+saida.getDano_min()+","+saida.getDano_max()+")}";
         }
-        System.out.println(bolsa.toArray().length);
         return "Perconagem{" +
                 "nome='" + this.nome + '\'' +
                 ",Itens='"+itens+'\''+
